@@ -18,6 +18,8 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     if (storedTheme) {
       setTheme(storedTheme)
     }
+    const root = document.documentElement
+    root.classList.add("theme-transition")
   }, [])
 
   React.useEffect(() => {

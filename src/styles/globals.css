@@ -6,3 +6,7 @@ html.dark {
   color: rgb(250 250 250);
   background-color: rgb(24 24 27);
 }
+
+.theme-transition {
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
