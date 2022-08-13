@@ -58,8 +58,6 @@ function Document() {
         />
 
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-
-        <title>Senlima Sun's Portfolio</title>
       </Head>
       <body>
         <Main />
