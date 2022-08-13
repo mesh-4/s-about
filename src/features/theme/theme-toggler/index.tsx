@@ -8,7 +8,7 @@ import { useTheme } from "@/features/theme/provider"
 import { variants } from "./variants"
 
 const ThemeToggler = () => {
-  const { theme, setTheme } = useTheme()
+  const { theme = THEME.LIGHT, setTheme } = useTheme()
 
   const handleClick = React.useCallback(() => {
     setTheme((prev) => (prev === THEME.LIGHT ? THEME.DARK : THEME.LIGHT))
