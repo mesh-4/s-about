@@ -14,7 +14,6 @@ const ThemeToggler = () => {
     setTheme((prev) => (prev === THEME.LIGHT ? THEME.DARK : THEME.LIGHT))
   }, [])
 
-  if (!theme) return <div />
   return (
     <button
       type="button"
